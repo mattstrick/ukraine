@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Hero from '../../components/SubPage/Hero/hero';
 import sheets from "../../lib/sheets";
 import Content from '../../components/content';
+import BlueCallout from '../../components/blueCallout';
 import Link from 'next/link';
 
 export default function ForSmallFundraisers(props) {
@@ -96,11 +97,11 @@ export default function ForSmallFundraisers(props) {
             </li>            
           </ul>
           <br />
-          <div className='bg-textAccent-blue rounded-3xl block p-4'>
+          <BlueCallout>
             <p>
                 <b>If you need help writing or translating this post to English, our volunteers can help</b> Please fill in this form in Ukrainian: <a href='https://forms.gle/YYkY5PMh1vp8ThjcA' className="font-medium text-lg text-uablue-default underline underline-offset-4 hover:text-uablue-accent" target='_blank' rel='noreferrer'>https://forms.gle/YYkY5PMh1vp8ThjcA</a>
             </p>
-          </div>
+          </BlueCallout>
         </div> 
         <div className="mt-24">
           <h1 className="font-bold text-2xl lg:text-4xl text-uablue-default">Step 3 - Submitting to the website</h1>
@@ -109,11 +110,11 @@ export default function ForSmallFundraisers(props) {
           <b>Please fill in <a href='https://forms.gle/k7X5SMjTBovUpfqFA' className="font-medium text-lg text-uablue-default underline underline-offset-4 hover:text-uablue-accent" target='_blank' rel='noreferrer'>this form</a></b>. This is a tedious task, and we understand you are already above your capacity. However, we hope that taking the time to work with us will help you reach more donors, receive more funding, and purchase the needed supplies and aid for as many people as possible. Please only submit this form <b>AFTER</b> you have made and shared the detailed post on social media.
           </p>
           <br />   
-          <div className='bg-textAccent-blue rounded-3xl block p-4'>
-          <p>
-          <b><span className='text-red-700'>!</span> IMPORTANT:</b> we can only feature you on the website if you have a detailed post with the above specification that is posted from a reliable social media profile or your official website. If your organization is already featured, you cannot apply for another fundraiser.
-          </p>
-          </div>
+          <BlueCallout>
+            <p>
+                <b><span className='text-red-700'>!</span> IMPORTANT:</b> we can only feature you on the website if you have a detailed post with the above specification that is posted from a reliable social media profile or your official website. If your organization is already featured, you cannot apply for another fundraiser.
+            </p>
+          </BlueCallout>
         </div>             
     </Content>
     </div>

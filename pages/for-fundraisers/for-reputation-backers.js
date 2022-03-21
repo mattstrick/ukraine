@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Hero from '../../components/SubPage/Hero/hero';
 import sheets from "../../lib/sheets";
 import Content from '../../components/content';
+import BlueCallout from '../../components/blueCallout';
 import Link from "next/link";
 
 export default function ForReputationBackers(props) {
@@ -89,11 +90,11 @@ export default function ForReputationBackers(props) {
                 <br /> Only add if applicable; please make sure it’s not someone on the frontline for safety purposes</li>
             </ul>
             <br />
-            <div className='bg-textAccent-blue rounded-3xl block p-2'>
+            <BlueCallout>
                 <p>
                     <b>If you need help writing or translating this post to English, our volunteers can help</b> Please fill out this form in Ukrainian: <a href='https://forms.gle/YYkY5PMh1vp8ThjcA' className=" font-medium text-lg text-uablue-default hover:text-uablue-accent underline underline-offset-4" target="_blank" rel="noreferrer">https://forms.gle/YYkY5PMh1vp8ThjcA</a>
                 </p>
-            </div>
+            </BlueCallout>
             
         </div> 
     </Content> 

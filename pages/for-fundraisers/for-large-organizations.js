@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Hero from '../../components/SubPage/Hero/hero';
 import sheets from "../../lib/sheets";
 import Content from '../../components/content';
+import BlueCallout from '../../components/blueCallout';
 import Link from "next/link";
 
 export default function ForLargeOrganizations(props) {
@@ -46,11 +47,11 @@ export default function ForLargeOrganizations(props) {
           <li className='mt-2'>👉 Not knowing who to contact when considering large donations</li>
           </ul>
           <br /> 
-          <div className='bg-textAccent-blue rounded-3xl block p-4 inline-block'>
-          <p>
-            We want to help you communicate this information.          
-          </p>
-          </div>  
+          <BlueCallout>
+            <p>
+                We want to help you communicate this information.          
+            </p>
+          </BlueCallout>  
         </div>
         <div className="mt-24">
           <h1 className="font-bold text-2xl lg:text-4xl text-uablue-default">
@@ -89,7 +90,7 @@ export default function ForLargeOrganizations(props) {
           <br />Preferably an English speaker</li>
           </ul>
           <br /><br />
-          <div className='bg-textAccent-blue rounded-3xl block p-4'>
+          <BlueCallout>
             <b>If you need help creating your donations page or translating it to English, our volunteers can help!</b> Please fill out this form with as much detail as possible:             
             <a 
                 href='https://forms.gle/YYkY5PMh1vp8ThjcA' 
@@ -101,7 +102,7 @@ export default function ForLargeOrganizations(props) {
             </a>
             <br /><br />
             Note: At the moment our volunteers prioritize helping smaller fundraisers for on-the-ground groups, but we are happy to help you when we have the capacity!
-          </div>
+          </BlueCallout>
           </p>          
         </div> 
         <div className="mt-24">
